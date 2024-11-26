@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>cor</OriginalElement>
+  <nodes>
+    <node x="73.0" y="-320.5">cor.DocumentHandler</node>
+    <node x="-187.0" y="-113.0">cor.ConfidentialityHandler</node>
+    <node x="-527.0" y="-113.0">cor.FormatHandler</node>
+    <node x="493.0" y="-113.0">cor.AuthorizationHandler</node>
+    <node x="153.0" y="-113.0">cor.SubmissionTimeHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="cor.FormatHandler" target="cor.DocumentHandler" relationship="REALIZATION">
+      <point x="74.5" y="-56.0" />
+      <point x="-303.5" y="-157.0" />
+      <point x="296.5" y="-157.0" />
+      <point x="74.5" y="43.5" />
+    </edge>
+    <edge source="cor.ConfidentialityHandler" target="cor.DocumentHandler" relationship="TO_ONE">
+      <point x="-74.5" y="-56.0" />
+      <point x="-112.5" y="-137.0" />
+      <point x="147.5" y="-137.0" />
+      <point x="-74.5" y="43.5" />
+    </edge>
+    <edge source="cor.SubmissionTimeHandler" target="cor.DocumentHandler" relationship="REALIZATION">
+      <point x="74.5" y="-56.0" />
+      <point x="376.5" y="-157.0" />
+      <point x="296.5" y="-157.0" />
+      <point x="74.5" y="43.5" />
+    </edge>
+    <edge source="cor.AuthorizationHandler" target="cor.DocumentHandler" relationship="REALIZATION">
+      <point x="74.5" y="-56.0" />
+      <point x="716.5" y="-157.0" />
+      <point x="296.5" y="-157.0" />
+      <point x="74.5" y="43.5" />
+    </edge>
+    <edge source="cor.ConfidentialityHandler" target="cor.DocumentHandler" relationship="REALIZATION">
+      <point x="74.5" y="-56.0" />
+      <point x="36.5" y="-157.0" />
+      <point x="296.5" y="-157.0" />
+      <point x="74.5" y="43.5" />
+    </edge>
+    <edge source="cor.SubmissionTimeHandler" target="cor.DocumentHandler" relationship="TO_ONE">
+      <point x="-74.5" y="-56.0" />
+      <point x="227.5" y="-137.0" />
+      <point x="147.5" y="-137.0" />
+      <point x="-74.5" y="43.5" />
+    </edge>
+    <edge source="cor.FormatHandler" target="cor.DocumentHandler" relationship="TO_ONE">
+      <point x="-74.5" y="-56.0" />
+      <point x="-452.5" y="-137.0" />
+      <point x="147.5" y="-137.0" />
+      <point x="-74.5" y="43.5" />
+    </edge>
+    <edge source="cor.AuthorizationHandler" target="cor.DocumentHandler" relationship="TO_ONE">
+      <point x="-74.5" y="-56.0" />
+      <point x="567.5" y="-137.0" />
+      <point x="147.5" y="-137.0" />
+      <point x="-74.5" y="43.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6400000000000007" showDependencies="true" x="205.85118972711984" y="-47.73903411600031" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
