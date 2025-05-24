@@ -4,7 +4,7 @@ import MarkdownItPlantuml from 'markdown-it-plantuml';
 
 export default defineUserConfig({
   // Замінити на назву свого репозиторія
-  base: "/db/",
+  base: "/lab6/",
 
   lang: "en-US",
   title: "PostIt!",
