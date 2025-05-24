@@ -1,43 +1,51 @@
 ## Requirements
 
-- Python
+
 - MySQL database
-- pip
+- Node.js (v18)
+- npm or yarn
 
 ## Installation
 
-1. Clone repo:
+1. **Clone the repository:**
+
    ```bash
    git clone https://your-repo-url.git
    cd your-repo
    ```
 
-2. Create a .env file in the root folder:
+2. **Create a `.env` file** in the root directory with your database and JWT configuration:
+
    ```ini
-   DB_HOST=localhost
-   DB_PORT=3306
+   JWT_SECRET=SECRET_KEY
+
+   DB_HOST=host
+   DB_USER=user_name
+   DB_PASSWORD=pword
    DB_NAME=db_name
-   DB_USER=user
-   DB_PASSWORD=password
-   JWT_SECRET_KEY=secretkey
+   DB_PORT=post
    ```
 
-3. Install dependencies (or do it in venv):
+3. **Install dependencies:**
+
    ```bash
-   pip install -r requirements.txt
-   ```
-  
-4. Run database migrations:
-   ```bash
-   python db/migrate.py
-   ```
-  
-5. Seed the database with initial data:
-   ```bash
-   python db/seed.py
+   npm i
    ```
 
-6. Start the development server:
+4. **Run database migrations:**
+
    ```bash
-   python app.py
+   npm run migrate
+   ```
+
+5. **Seed the database with initial data:**
+
+   ```bash
+   npm run seed
+   ```
+
+6. **Start the development server:**
+
+   ```bash
+   npm run dev
    ```
